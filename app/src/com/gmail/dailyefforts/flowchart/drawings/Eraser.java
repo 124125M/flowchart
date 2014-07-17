@@ -5,7 +5,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 
-import com.gmail.dailyefforts.flowchart.MoveType;
+import com.gmail.dailyefforts.flowchart.ResizeType;
 
 /**
  * An earser, drawing the track line with the color of the bitmap's background
@@ -40,7 +40,7 @@ public class Eraser extends Drawing {
 	}
 
 	@Override
-	public void move(float x, float y, Canvas canvas, MoveType type) {
+	public void move(float x, float y, Canvas canvas, ResizeType type) {
 		float dx = Math.abs(x - mX);
 		float dy = Math.abs(y - mY);
 		if (dx >= TOUCH_TOLERANCE || dy >= TOUCH_TOLERANCE) {

@@ -4,7 +4,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 
-import com.gmail.dailyefforts.flowchart.MoveType;
+import com.gmail.dailyefforts.flowchart.ResizeType;
 import com.gmail.dailyefforts.flowchart.tools.Brush;
 
 /**

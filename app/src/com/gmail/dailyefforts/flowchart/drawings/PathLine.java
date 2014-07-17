@@ -1,6 +1,6 @@
 package com.gmail.dailyefforts.flowchart.drawings;
 
-import com.gmail.dailyefforts.flowchart.MoveType;
+import com.gmail.dailyefforts.flowchart.ResizeType;
 import com.gmail.dailyefforts.flowchart.tools.Brush;
 
 import android.graphics.Canvas;
@@ -34,7 +34,7 @@ public class PathLine extends Drawing {
 	}
 
 	@Override
-	public void move(float x, float y, Canvas canvas, MoveType type) {
+	public void move(float x, float y, Canvas canvas, ResizeType type) {
 		float dx = Math.abs(x - mX);
 		float dy = Math.abs(y - mY);
 

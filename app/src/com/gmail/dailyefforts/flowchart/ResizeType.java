@@ -1,6 +1,6 @@
 package com.gmail.dailyefforts.flowchart;
 
-public enum MoveType {
+public enum ResizeType {
     NONE,
     POINT_LEFT_TOP,
     POINT_LEFT_BOTTOM,
@@ -10,5 +10,5 @@ public enum MoveType {
     EDGE_TOP,
     EDGE_RIGHT,
     EDGE_BOTTOM,
-    MOVING
+    MOVING;
 }
