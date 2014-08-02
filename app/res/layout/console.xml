@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:alpha="0.3"
-            android:background="@android:drawable/btn_plus"
+            android:background="@drawable/picker"
             android:onClick="onClick"
             />
     </FrameLayout>
